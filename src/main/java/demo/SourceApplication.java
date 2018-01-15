@@ -49,9 +49,9 @@ public class SourceApplication {
 	final static String queueName = "test-queue";
 	
 	@Bean
-    Queue queue() {
-        return new Queue(queueName, true);
-    }
+	Queue queue() {
+		return new Queue(queueName, true);
+	}
 	
 //	@Bean
 //	TopicExchange exchange() {
